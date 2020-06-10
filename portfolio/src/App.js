@@ -5,8 +5,10 @@ import About from "./components/about"
 import Skills from "./components/skills"
 import Projects from "./components/projects"
 import "./styles/navigation.css"
+import "./styles/header.css"
+import "./styles/about.css"
 
-import './App.css';
+import "../src/styles/App.css";
 
 function App() {
   return (

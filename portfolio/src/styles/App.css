@@ -1,0 +1,16 @@
+
+/* VARIABLES & GLOBAL */
+html{
+  --font-body: 'Poppins', sans-serif;
+  --font-name: 'Dosis', sans-serif;
+  --color-main: #052C25;
+  --color-second:#f4f1ee;
+}
+
+body{
+  background-color: var(--color-main);
+  max-width: 1375px;
+}
+
+
+

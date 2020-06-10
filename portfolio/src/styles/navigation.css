@@ -1,3 +1,32 @@
 .Navigation{
+    background-color: var(--color-main);
+   
+}
+.NavContainer{
+    display:flex;
+    justify-content: space-between;
     
 }
+
+.Name h1{
+    font-family: var(--font-name);
+    color: var(--color-second);
+    font-size: 35px;
+    
+}
+.color-dot{
+    color: #564eff;
+}
+
+.nav-buttons button{
+    background-color: var(--color-second);
+    font-family: var(--font-name);
+   border-radius: 24px;
+    color: black;
+    font-size: 14px;
+    width: 125px;
+    height: 25px;
+    border: none;
+   margin:35px;
+}
+

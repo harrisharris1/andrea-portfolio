@@ -1,0 +1,23 @@
+.AboutSection{
+    
+    height: 40vh;
+    background-color: var(--color-second);
+}
+.MoreAbout{
+    width: 700px;
+    text-align: left;
+    padding-top: 50px;
+    margin: 100px 350px 100px 350px;
+}
+.MoreAbout h3{
+    font-size:25px;
+    color: black;
+    text-align: center;
+    font-family: var(--font-body);
+}
+
+.MoreAbout p{
+    font-size: 18px;
+    color: black;
+    font-family: var(--font-body);
+}
