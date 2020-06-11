@@ -1,5 +1,21 @@
 .ProjectsContainer{
     height: 100vh;
     background-color: var(--color-second);
-    
+
 }
+
+.ProjectsList h4{
+    font-size:25px;
+    color: black;
+    text-align: center;
+    font-family: var(--font-body);
+    padding-top: 50px;
+}
+
+.ProjectsList p{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-family: var(--font-body);
+}
+

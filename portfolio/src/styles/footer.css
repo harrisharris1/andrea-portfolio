@@ -1,0 +1,14 @@
+.FooterContainer{
+    height: 20vh;
+}
+
+.FooterName h2{
+    font-family: var(--font-name);
+    color: var(--color-second);
+    font-size: 35px;
+    margin-left:35px;
+}
+
+.socialMedia{
+    margin-left:28px;
+}

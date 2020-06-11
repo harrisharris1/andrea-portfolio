@@ -10,6 +10,7 @@ import less from "../images/less.svg"
 import yarn from "../images/yarn.svg"
 import git from "../images/git.svg"
 import npm from "../images/npm.svg"
+import vscode from "../images/vscode.svg"
 
 
 const Skills = () =>(
@@ -27,6 +28,7 @@ const Skills = () =>(
             <img src={yarn}width="75px"></img>
             <img src={git}width="75px"></img>
             <img src={npm}width="75px"></img>
+            <img src={vscode}width="75px"></img>
            
            
             
