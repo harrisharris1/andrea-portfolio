@@ -11,6 +11,7 @@ import yarn from "../images/yarn.svg"
 import git from "../images/git.svg"
 import npm from "../images/npm.svg"
 import vscode from "../images/vscode.svg"
+import "../styles/App.css";
 
 
 const Skills = () =>(
