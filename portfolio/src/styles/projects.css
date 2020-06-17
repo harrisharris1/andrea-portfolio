@@ -1,5 +1,6 @@
 .ProjectsContainer{
     height: 100vh;
+    max-width: 1375px;
     background-color: var(--color-second);
 
 }
@@ -17,5 +18,21 @@
     font-size: 18px;
     color: black;
     font-family: var(--font-body);
+}
+.projectCard{
+    margin:20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.custom-btn{
+    background-color: var(--color-first);
+    border-color: var(--color-first);
+
+}
+
+.custom-btn:hover{
+    background-color:#564eff;
+    border-color: #564eff;
 }
 

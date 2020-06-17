@@ -10,23 +10,46 @@ const Projects = () => (
         <div className="ProjectsList">
             <h4>Some Projects I've worked on</h4> 
             <p> (some still in process)</p>
-            <div className="projectCard">
-            <Card style={{ width: '18rem' }}>
-               <Card.Img variant="top" src={ZacPage} width="400px" />
-                 <Card.Body>
-                  <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the bulk of
-                        the card's content.
-                    </Card.Text>
-                       <Button variant="primary">Go somewhere</Button>
-                 </Card.Body>
-            </Card>
-                
+                    <div className="projectCard">
+                        <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
+                            <Card.Img variant="top" src={ZacPage} width="50px" fluid/>
+                            <Card.Body>
+                                <Card.Title>Zac Harris Personal Site</Card.Title>
+                            <Card.Text>
+                                This personal site was made with Gatsby.js & Ghost
+                            </Card.Text>
+                            <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to project</Button>
+                            </Card.Body>
+                        </Card>
+
+                        <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
+                            <Card.Img variant="top" src={ZacPage} width="50px" fluid/>
+                            <Card.Body>
+                                <Card.Title>Zac Harris Personal Site</Card.Title>
+                            <Card.Text>
+                                This personal site was made with Gatsby.js & Ghost
+                            </Card.Text>
+                            <Button href="#" className="custom-btn">Go to project</Button>
+                            </Card.Body>
+                        </Card>
+
+
+                        <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
+                            <Card.Img variant="top" src={ZacPage} width="50px" fluid/>
+                            <Card.Body>
+                                <Card.Title>Zac Harris Personal Site</Card.Title>
+                            <Card.Text>
+                                This personal site was made with Gatsby.js & Ghost
+                            </Card.Text>
+                            <Button href="#" className="custom-btn">Go to project</Button>
+                            </Card.Body>
+                        </Card>
+                    </div>
+                        
 
             </div>
         </div>
-    </div>
+    
 )
 
 export default Projects

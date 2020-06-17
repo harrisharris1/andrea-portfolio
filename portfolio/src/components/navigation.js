@@ -10,8 +10,8 @@ const Nav = () =>(
                     <h1>Andrea H<span className="color-dot">.</span></h1>
                 </div>
                 <div className="nav-buttons">
-                    <button className="Resume-btn">Resume</button>
-                    <button className="ContactMe-btn">Contact Me</button>
+                    <button href="#" className="Resume-btn">Resume</button>
+                    <button  className="ContactMe-btn">Contact Me</button>
                 </div>
         </div>
     </div>

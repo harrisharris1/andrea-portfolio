@@ -32,3 +32,8 @@
    margin:35px;
 }
 
+.nav-buttons button:hover{
+    background-color:#564eff;
+    color: var(--color-second);
+}
+
