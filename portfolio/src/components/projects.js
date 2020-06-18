@@ -12,7 +12,7 @@ const Projects = () => (
             <p> (some still in process)</p>
                     <div className="projectCard">
                         <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
-                            <Card.Img variant="top" src={ZacPage} width="50px" fluid/>
+                            <Card.Img variant="top" src={ZacPage} alt="project image" width="50px" fluid/>
                             <Card.Body>
                                 <Card.Title>Zac Harris Personal Site</Card.Title>
                             <Card.Text>
