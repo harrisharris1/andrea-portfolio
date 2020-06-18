@@ -18,18 +18,18 @@ const Skills = () =>(
     <div className="SkillContainer">
         <h3>My Tech Skills</h3>
         <div className="Skill-List">
-            <img src={Css} width="85px"></img>
-            <img src={Html}width="75px"></img>
-            <img src={Js}width="75px"></img>
-            <img src={reactjs} width="75px"></img>
-            <img src={python}width="75px"></img>
-            <img src={nodejs}width="75px"></img>
-            <img src={gatsbyjs}width="75px"></img>
-            <img src={less}width="75px"></img>
-            <img src={yarn}width="75px"></img>
-            <img src={git}width="75px"></img>
-            <img src={npm}width="75px"></img>
-            <img src={vscode}width="75px"></img>
+            <img src={Css} width="85px" alt="css icon"></img>
+            <img src={Html}width="75px" alt="html icon"></img>
+            <img src={Js}width="75px" alt="js icon"></img>
+            <img src={reactjs} width="75px" alt="react icon"></img>
+            <img src={python}width="75px" alt="python icon"></img>
+            <img src={nodejs}width="75px" alt="node icon"></img>
+            <img src={gatsbyjs}width="75px" alt="gatsby icon"></img>
+            <img src={less}width="75px" alt="less icon"></img>
+            <img src={yarn}width="75px" alt="yarn icon"></img>
+            <img src={git}width="75px" alt="git icon"></img>
+            <img src={npm}width="75px" alt="npm icon"></img>
+            <img src={vscode}width="75px" alt="vscode icon"></img>
            
            
             
