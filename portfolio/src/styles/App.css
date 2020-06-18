@@ -10,7 +10,7 @@ html{
 
 body{
   background-color: var(--color-first);
-  max-width: 1375px;
+  max-width: 100%;
 }
 
 

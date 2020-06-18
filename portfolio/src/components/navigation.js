@@ -1,4 +1,5 @@
 import React from "react";
+import {Button} from "react-bootstrap"
 import "../styles/App.css"
 
 
@@ -10,8 +11,8 @@ const Nav = () =>(
                     <h1>Andrea H<span className="color-dot">.</span></h1>
                 </div>
                 <div className="nav-buttons">
-                    <button href="#" className="Resume-btn">Resume</button>
-                    <button  className="ContactMe-btn">Contact Me</button>
+                    <Button href="#" className="nav-btn">Resume </Button>
+                    <Button href="mailto:a.s.quintana1210@gmail.com" className="nav-btn">Contact Me</Button>
                 </div>
         </div>
     </div>

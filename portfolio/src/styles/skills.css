@@ -1,5 +1,5 @@
 .SkillContainer{
-height: 40vh;
+height: 100%;
 }
 
 .SkillContainer h3{
@@ -7,12 +7,14 @@ height: 40vh;
     color: var(--color-second);
     text-align: center;
     font-family: var(--font-body);
-    padding-top: 50px;
+    padding-top: 20px;
+    
 }
 
 .Skill-List{
     display: flex;
     justify-content: space-evenly;
     margin-top:45px;
+    padding-bottom: 30px;
 
 }

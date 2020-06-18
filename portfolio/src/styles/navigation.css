@@ -19,20 +19,17 @@
     color: #564eff;
 }
 
-.nav-buttons button{
+.nav-btn{
     background-color: var(--color-second);
     font-family: var(--font-name);
-   border-radius: 25px;
     color: black;
     font-size: 14px;
     font-weight: 600;
-    width: 125px;
-    height: 30px;
     border: none;
-   margin:35px;
+   margin:15px;
 }
 
-.nav-buttons button:hover{
+.nav-btn:hover{
     background-color:#564eff;
     color: var(--color-second);
 }
