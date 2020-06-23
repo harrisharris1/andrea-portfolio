@@ -12,8 +12,8 @@ const Nav = () =>(
                     <h1>Andrea H<span className="color-dot">.</span></h1>
                 </div>
                 <div className="nav-buttons">
-                    <Button href={Resumepdf} target="_blank" className="nav-btn">Resume </Button>
-                    <Button href="mailto:a.s.quintana1210@gmail.com" className="nav-btn">Contact Me</Button>
+                    <Button href={Resumepdf} target="_blank" rel="noopener noreferrer" className="nav-btn">Resume </Button>
+                    <Button href="mailto:a.s.quintana1210@gmail.com" rel="noopener noreferrer"className="nav-btn">Contact Me</Button>
                 </div>
         </div>
     </div>

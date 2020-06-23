@@ -3,7 +3,7 @@ import React from "react";
 import linkedin from "../images/linkedin.svg"
 import twitter from "../images/twitter.svg"
 import gmail from "../images/gmail.svg"
-import {Button} from "react-bootstrap";
+
 
 
 const Footer = () =>(
