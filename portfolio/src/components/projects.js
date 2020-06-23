@@ -10,6 +10,8 @@ const Projects = () => (
         <div className="ProjectsList">
             <h4>Some Projects I've worked on</h4> 
             <p> (some still in process)</p>
+                 
+
                     <div className="projectCard">
                         <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
                             <Card.Img variant="top" src={ZacPage} alt="project image" width="50px" fluid/>
@@ -25,11 +27,11 @@ const Projects = () => (
                         <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
                             <Card.Img variant="top" src={ZacPage} width="50px" fluid/>
                             <Card.Body>
-                                <Card.Title>Zac Harris Personal Site</Card.Title>
+                                <Card.Title>Fylo Challenge</Card.Title>
                             <Card.Text>
-                                This personal site was made with Gatsby.js & Ghost
+                                This challenge was made with pure HTML & CSS
                             </Card.Text>
-                            <Button href="#" className="custom-btn">Go to project</Button>
+                            <Button href="https://aharris1012.github.io/fylo-challenge/" className="custom-btn">Go to project</Button>
                             </Card.Body>
                         </Card>
 
@@ -44,11 +46,13 @@ const Projects = () => (
                             <Button href="#" className="custom-btn">Go to project</Button>
                             </Card.Body>
                         </Card>
-                    </div>
-                        
 
-            </div>
+                        
+                    </div>
+                   
         </div>
+            
+    </div>
     
 )
 

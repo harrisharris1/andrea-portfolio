@@ -12,10 +12,12 @@
    
 }
 
+
 .Greeting h2{
     font-size: 40px;
     color: var(--color-second);
     font-family: var(--font-body);
+    
     
 }
 

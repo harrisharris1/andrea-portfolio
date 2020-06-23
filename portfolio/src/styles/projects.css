@@ -18,6 +18,7 @@
     color: black;
     font-family: var(--font-body);
 }
+
 .projectCard{
     display: flex;
     flex-wrap: wrap;
@@ -36,4 +37,6 @@
     background-color:#564eff;
     border-color: #564eff;
 }
+
+
 
