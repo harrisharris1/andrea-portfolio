@@ -1,17 +1,14 @@
-
 /* VARIABLES & GLOBAL */
 html{
-  --font-body: 'Poppins', sans-serif;
-  --font-name: 'Dosis', sans-serif;
-  --color-first: #052C25;
-  /* --color-main: #e0e097c7; */
-  --color-second:#f4f1ee;
-}
-
-body{
-  background-color: var(--color-first);
-  max-width: 100%;
-}
-
-
-
+    --font-body: 'Poppins', sans-serif;
+    --font-name: 'Dosis', sans-serif;
+    --color-first: #052C25;
+    /* --color-main: #e0e097c7; */
+    --color-second:#f4f1ee;
+  }
+  
+  body{
+    background-color: var(--color-first);
+    max-width: 100%;
+  }
+  

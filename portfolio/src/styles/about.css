@@ -6,9 +6,11 @@
 .MoreAbout{
     max-width: 700px;
     text-align: left;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    margin: 15% 25% 3% 25%;
+    display:flex;
+    flex-direction: column;
+    padding: 5%;
+    margin: 10% 20% 3% 22%;
+    
 }
 .MoreAbout h3{
     font-size:25px;
@@ -21,5 +23,10 @@
     font-size: 18px;
     color: black;
     font-family: var(--font-body);
+    
+}
+.MoreAbout img{
+    margin-left:20%;
+    margin-bottom: 5%;
     
 }
