@@ -6,7 +6,7 @@ const About = () =>(
     <div className="AboutSection">
         <div className="MoreAbout">
             
-            <img src={Andrea} width='350px' alt="image of andrea harris"></img>
+            <img src={Andrea} width='350px' alt="andrea harris"></img>
             
             
             <div className="moreabout-sentence">
