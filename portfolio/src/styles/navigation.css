@@ -16,7 +16,7 @@
     
 }
 .color-dot{
-    color: #564eff;
+    color: #c97467;
 }
 
 .nav-btn{
@@ -30,7 +30,7 @@
 }
 
 .nav-btn:hover{
-    background-color:#564eff;
+    background-color:#c97467;
     color: var(--color-second);
 }
 
