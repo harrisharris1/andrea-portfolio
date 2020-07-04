@@ -14,8 +14,8 @@ const Projects = () => (
                  
 
                     <div className="projectCard">
-                        <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
-                            <Card.Img variant="top" src={ZacPage} alt="project image" width="50px" fluid/>
+                        <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
+                            <Card.Img variant="top" src={ZacPage} alt="project image" fluid/>
                             <Card.Body>
                                 <Card.Title>Zac Harris Personal Site</Card.Title>
                             <Card.Text>
@@ -25,8 +25,8 @@ const Projects = () => (
                             </Card.Body>
                         </Card>
 
-                        <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
-                            <Card.Img variant="top" src={Destinations} width="50px" fluid/>
+                        <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
+                            <Card.Img variant="top" src={Destinations} alt="destinations project"fluid/>
                             <Card.Body>
                                 <Card.Title>Great Destinations</Card.Title>
                             <Card.Text>
@@ -37,8 +37,8 @@ const Projects = () => (
                         </Card>
 
 
-                        <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
-                            <Card.Img variant="top" src={ZacPage} width="50px" fluid/>
+                        <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
+                            <Card.Img variant="top" src={ZacPage} alt="next project" fluid/>
                             <Card.Body>
                                 <Card.Title>Zac Harris Personal Site</Card.Title>
                             <Card.Text>
