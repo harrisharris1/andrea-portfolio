@@ -13,6 +13,7 @@ height: 100%;
 
 .Skill-List{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top:45px;
     padding-bottom: 30px;

@@ -1,5 +1,6 @@
 import React from "react";
-import ZacPage from "../images/zac-page.jpg";
+import ZacPage from "../images/zac-page.png";
+import Destinations from "../images/awesome.png";
 import {Card} from "react-bootstrap";
 import {Button} from "react-bootstrap";
 import "../styles/App.css";
@@ -8,8 +9,8 @@ import "../styles/App.css";
 const Projects = () => (
     <div className="ProjectsContainer">
         <div className="ProjectsList">
-            <h4>Some Projects I've worked on</h4> 
-            <p> (some still in process)</p>
+            <h4>Some Projects I've working on</h4> 
+            <p> (most work in progress)</p>
                  
 
                     <div className="projectCard">
@@ -18,20 +19,20 @@ const Projects = () => (
                             <Card.Body>
                                 <Card.Title>Zac Harris Personal Site</Card.Title>
                             <Card.Text>
-                                This personal site was made with Gatsby.js & Ghost
+                                Created with Gatsby.js & Ghost
                             </Card.Text>
                             <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to project</Button>
                             </Card.Body>
                         </Card>
 
                         <Card style={{ width: '20rem', margin:'55px', textAlign:'center'}}>
-                            <Card.Img variant="top" src={ZacPage} width="50px" fluid/>
+                            <Card.Img variant="top" src={Destinations} width="50px" fluid/>
                             <Card.Body>
-                                <Card.Title>Fylo Challenge</Card.Title>
+                                <Card.Title>Great Destinations</Card.Title>
                             <Card.Text>
-                                This challenge was made with pure HTML & CSS
+                                 Created with React.js
                             </Card.Text>
-                            <Button href="https://aharris1012.github.io/fylo-challenge/" className="custom-btn">Go to project</Button>
+                            <Button href="https://peaceful-agnesi-dad644.netlify.app/" className="custom-btn">Go to project</Button>
                             </Card.Body>
                         </Card>
 

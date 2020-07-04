@@ -4,13 +4,11 @@
     background-color: var(--color-second);
 }
 .MoreAbout{
-    max-width: 700px;
-    text-align: left;
+    max-width: 800px;
     display:flex;
     flex-direction: column;
-    padding: 5%;
-    margin: 10% 20% 3% 22%;
-    
+    margin: 10% 25% 4% 25%;
+    padding:5%;
 }
 .MoreAbout h3{
     font-size:25px;
@@ -26,8 +24,13 @@
     
 }
 .MoreAbout img{
-    margin-left:20%;
-    margin-bottom: 5%;
     border: 3px solid #c97467;
+    margin-bottom: 5%;
+}
+.responsive-andrea{
+   
+    max-width: 100%;
+    /* max-width: 450px; */
+    height: auto;
     
 }
