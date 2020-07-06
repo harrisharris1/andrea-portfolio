@@ -21,18 +21,20 @@ const Projects = () => (
                             <Card.Text>
                                 Created with Gatsby.js & Ghost
                             </Card.Text>
-                            <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to project</Button>
+                            <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to Project</Button>
+                            <Button href="https://github.com/aharris1012/zac-personalsite" className="custom-btn">Go to Github</Button>
                             </Card.Body>
                         </Card>
 
                         <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
                             <Card.Img variant="top" src={Destinations} alt="destinations project"fluid/>
                             <Card.Body>
-                                <Card.Title>Great Destinations</Card.Title>
+                                <Card.Title>Awesome Destinations</Card.Title>
                             <Card.Text>
                                  Created with React.js
                             </Card.Text>
-                            <Button href="https://peaceful-agnesi-dad644.netlify.app/" className="custom-btn">Go to project</Button>
+                            <Button href="https://peaceful-agnesi-dad644.netlify.app/" className="custom-btn">Go to Project</Button>
+                            <Button href="https://github.com/aharris1012/AwesomeDestinations" className="custom-btn">Go to Github</Button>
                             </Card.Body>
                         </Card>
 
@@ -44,7 +46,8 @@ const Projects = () => (
                             <Card.Text>
                                 This personal site was made with Gatsby.js & Ghost
                             </Card.Text>
-                            <Button href="#" className="custom-btn">Go to project</Button>
+                            <Button href="#" className="custom-btn">Go to Project</Button>
+                            <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to Github</Button>
                             </Card.Body>
                         </Card>
 
