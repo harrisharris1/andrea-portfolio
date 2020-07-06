@@ -19,7 +19,8 @@ const Projects = () => (
                             <Card.Body>
                                 <Card.Title>Zac Harris Personal Site</Card.Title>
                             <Card.Text>
-                                Created with Gatsby.js & Ghost
+                                Personal Page built for future customers to read post about
+                                related subjects & schedule meetings with Zac Harris.
                             </Card.Text>
                             <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to Project</Button>
                             <Button href="https://github.com/aharris1012/zac-personalsite" className="custom-btn">Go to Github</Button>
@@ -31,7 +32,8 @@ const Projects = () => (
                             <Card.Body>
                                 <Card.Title>Awesome Destinations</Card.Title>
                             <Card.Text>
-                                 Created with React.js
+                                 Looking for a getaway is hard.This site helps see destinations prices
+                                  & book your next vacation easy.
                             </Card.Text>
                             <Button href="https://peaceful-agnesi-dad644.netlify.app/" className="custom-btn">Go to Project</Button>
                             <Button href="https://github.com/aharris1012/AwesomeDestinations" className="custom-btn">Go to Github</Button>
@@ -42,9 +44,9 @@ const Projects = () => (
                         <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
                             <Card.Img variant="top" src={ZacPage} alt="next project" fluid/>
                             <Card.Body>
-                                <Card.Title>Zac Harris Personal Site</Card.Title>
+                                <Card.Title>Coming Soon</Card.Title>
                             <Card.Text>
-                                This personal site was made with Gatsby.js & Ghost
+                                Working in a Finished Project
                             </Card.Text>
                             <Button href="#" className="custom-btn">Go to Project</Button>
                             <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to Github</Button>
