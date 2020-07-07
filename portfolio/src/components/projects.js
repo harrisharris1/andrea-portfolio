@@ -49,7 +49,7 @@ const Projects = () => (
                                 Working in a Finished Project
                             </Card.Text>
                             <Button href="#" className="custom-btn">Go to Project</Button>
-                            <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to Github</Button>
+                            <Button href="#" className="custom-btn">Go to Github</Button>
                             </Card.Body>
                         </Card>
 
