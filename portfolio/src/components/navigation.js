@@ -9,7 +9,7 @@ const Nav = () =>(
     <div className="Navigation">
         <div className="NavContainer">
                 <div className="Name">
-                    <h1>Andrea H<span className="color-dot">.</span></h1>
+                    <h1>Andrea Harris<span className="color-dot">.</span></h1>
                 </div>
                 <div className="nav-buttons">
                     <Button href={Resumepdf} target="_blank" rel="noopener noreferrer" className="nav-btn">Resume </Button>

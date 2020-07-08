@@ -1,5 +1,7 @@
 .FooterContainer{
     height: 20vh;
+    display:flex;
+    justify-content: space-between;
 }
 
 .FooterName h2{
@@ -11,6 +13,13 @@
 }
 
 .socialMedia{
-    margin-left:28px;
+   margin:2%;
 }
 
+
+.socialMedia p{
+    font-family: var(--font-body);
+    color: #c97467;
+    font-size: 1.5em;
+    margin-left:5%;
+}

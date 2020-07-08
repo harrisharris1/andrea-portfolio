@@ -24,6 +24,14 @@
     flex-wrap: wrap;
     
 }
+
+.projectCard .Project-description{
+    font-size: 16px;
+}
+
+.projectCard .tech-used{
+    font-size: 14px;
+}
 .custom-btn{
     background-color: var(--color-first);
     border-color: var(--color-first);
