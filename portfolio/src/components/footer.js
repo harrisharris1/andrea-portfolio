@@ -13,7 +13,7 @@ const Footer = () =>(
            <h2>Andrea Harris<span className="color-dot">.</span></h2>
            </div>
 
-              <div className="socialMedia">
+           <div className="socialMedia">
                 <p>Contact :</p>
                   <a target='_blank' href="https://www.linkedin.com/in/andrea-harris-208989174/" rel="noopener noreferrer"><img src={linkedin} width="65px" alt="linkedin icon"></img></a>
                   <a target='_blank' href="https://www.twitter.com/ImAndreaHarris/" rel="noopener noreferrer"><img src={twitter} width="65px" alt="twitter icon"></img></a>
@@ -21,6 +21,8 @@ const Footer = () =>(
                  
 
                </div>
+
+             
               
      </div>
 )

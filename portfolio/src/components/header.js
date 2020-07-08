@@ -5,7 +5,7 @@ import "../styles/App.css"
 const Header =()=>(
     <div className="HeadContainer">
         <div className="Greeting">
-            <h2> I'm a Junior Front End Developer<br>
+            <h2> I'm a Front End Developer<br>
             </br>with a lot of enthusiasm <br>
             </br>to keep learning<span className="color-dot">,</span> ready to dive <br>
             </br>in into the Tech world<span className="color-dot">.</span></h2>

@@ -1,13 +1,10 @@
 .FooterContainer{
     height: 20vh;
     display:flex;
-    justify-content: space-between;
+   
+    
 }
-@media (max-width: 460px){
-    .FooterContainer{
-        flex-direction: column;
-    }
-}
+
 
 .FooterName h2{
     font-family: var(--font-name);
@@ -17,22 +14,20 @@
     margin-left:35px;
 }
 
-.socialMedia{
-   margin:1.5%;
-}
 
+.socialMedia{
+    margin-left:30%;
+
+}
 
 
 .socialMedia p{
     font-family: var(--font-body);
     color: #c97467;
     font-size: 1.5em;
-    margin-left:5%;
-    margin-top: 10%;
-}
-@media (max-width: 460px){
-    .socialMedia{
-        margin-left: 3%;
-    }
+    margin-top: 30px;
+    margin-left: 20%;
+   
+
 }
 
