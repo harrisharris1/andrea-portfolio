@@ -2,6 +2,16 @@
 height: 100%;
 }
 
+.skill{
+    margin:3%;
+}
+
+.skill p{
+    color: var(--color-second);
+    font-family: var(--font-body);
+    text-align: center;
+}
+
 .SkillContainer h3{
     font-size:25px;
     color: var(--color-second);
