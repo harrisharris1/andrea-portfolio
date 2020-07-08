@@ -25,8 +25,8 @@ const Projects = () => (
                             <Card.Text className="tech-used">
                                 Gatsby.js|Figma|Ghost CMS
                             </Card.Text>
-                            <Button href="https://keen-mclean-51ee82.netlify.app/" className="custom-btn">Go to Project</Button>
-                            <Button href="https://github.com/aharris1012/zac-personalsite" className="custom-btn">Go to Github</Button>
+                            <Button href="https://keen-mclean-51ee82.netlify.app/" target="_blank" className="custom-btn">Go to Project</Button>
+                            <Button href="https://github.com/aharris1012/zac-personalsite" target="_blank" className="custom-btn">Go to Github</Button>
                             </Card.Body>
                         </Card>
 
@@ -41,8 +41,8 @@ const Projects = () => (
                             <Card.Text className="tech-used">
                                 React.js|Sass
                             </Card.Text>
-                            <Button href="https://peaceful-agnesi-dad644.netlify.app/" className="custom-btn">Go to Project</Button>
-                            <Button href="https://github.com/aharris1012/AwesomeDestinations" className="custom-btn">Go to Github</Button>
+                            <Button href="https://peaceful-agnesi-dad644.netlify.app/" target="_blank" className="custom-btn">Go to Project</Button>
+                            <Button href="https://github.com/aharris1012/AwesomeDestinations" target="_blank" className="custom-btn">Go to Github</Button>
                             </Card.Body>
                         </Card>
 
@@ -57,8 +57,8 @@ const Projects = () => (
                             <Card.Text className="tech-used">
                                 React.js|Sass
                             </Card.Text>
-                            <Button href="#" className="custom-btn">Go to Project</Button>
-                            <Button href="#" className="custom-btn">Go to Github</Button>
+                            <Button href="#" target="_blank" className="custom-btn">Go to Project</Button>
+                            <Button href="#" target="_blank" className="custom-btn">Go to Github</Button>
                             </Card.Body>
                         </Card>
 
