@@ -1,7 +1,7 @@
 import React from "react";
 import {Button} from "react-bootstrap"
 import "../styles/App.css"
-import Resumepdf from "../images/ResumeANDREA.pdf"
+import Resumepdf from "../images/AndreaHarrisResume.pdf";
 
 
 
