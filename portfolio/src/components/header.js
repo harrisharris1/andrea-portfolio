@@ -8,7 +8,7 @@ const Header =()=>(
             <h2> I'm a Front End Developer<br>
             </br>with a lot of enthusiasm <br>
             </br>to keep learning<span className="color-dot">,</span> ready to dive <br>
-            </br>in into the Tech world<span className="color-dot">.</span></h2>
+            </br>into the Tech world<span className="color-dot">.</span></h2>
 
             <div class="paragraph">
             <p>I graduated from Lambda School where I learned new technologies<br>

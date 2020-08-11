@@ -13,6 +13,7 @@
 }
 
 
+
 .Greeting h2{
     font-size: 40px;
     color: var(--color-second);
@@ -20,10 +21,35 @@
     
     
 }
+@media only screen and (min-width: 1058px) and (max-width: 1217px){
+    .Greeting h2{
+        font-size: 35px;
+ 
+
+}
+}
+
+@media only screen and (min-width: 775px) and (max-width: 1058px){
+    .Greeting h2{
+        font-size: 27px;
+ 
+
+}
+.paragraph{
+    font-size: 16px;
+}
+}
 
 .paragraph{
     font-size: 18px;
     color: var(--color-second);
     font-family: var(--font-body);
    
+}
+@media only screen and (min-width: 1058px) and (max-width: 1211px){
+    .paragraph{
+        font-size: 16px;
+ 
+
+}
 }

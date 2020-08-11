@@ -3,13 +3,14 @@ import ZacPage from "../images/zac-page.png";
 import Destinations from "../images/awesome.png";
 import {Card} from "react-bootstrap";
 import {Button} from "react-bootstrap";
+import JLOGO from "../images/Jeffery-logo.jpg";
 import "../styles/App.css";
 
 
 const Projects = () => (
     <div className="ProjectsContainer">
         <div className="ProjectsList">
-            <h4>Some Projects I've working on</h4> 
+            <h4>Some projects I've been working on</h4> 
             <p> (most work in progress)</p>
                  
 
@@ -48,14 +49,16 @@ const Projects = () => (
 
 
                         <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
-                            <Card.Img variant="top" src={ZacPage} alt="next project" fluid/>
+                            <Card.Img variant="top" src={JLOGO} alt="next project" fluid/>
                             <Card.Body>
-                                <Card.Title>Coming Soon</Card.Title>
+                                <Card.Title>Coming Soon "Jeffery"</Card.Title>
                             <Card.Text  className="Project-description">
-                                Working on a Finished Project
+                                Jeffery is a company offering different types of services taking care of the chores, customers
+                                don't want to take care of. They offer laundry, cleanings, dog walks and more for a good convenient price.
+                                Only trusted trained Jeffery's have acces to your home when you are aware.
                             </Card.Text>
                             <Card.Text className="tech-used">
-                                React.js|Sass
+                                React.js|React-bootstrap
                             </Card.Text>
                             <Button href="#" target="_blank" className="custom-btn">Go to Project</Button>
                             <Button href="#" target="_blank" className="custom-btn">Go to Github</Button>
