@@ -10,7 +10,10 @@ const Projects = () => (
   <div className='ProjectsContainer'>
     <div className='ProjectsList'>
       <h4>Some projects I've been working on</h4>
-      <p> (most work in progress)</p>
+      <p>
+        (most work in progress)<br></br>Feel free to check out my Github for
+        more code examples!
+      </p>
 
       <div className='projectCard'>
         {/* <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
