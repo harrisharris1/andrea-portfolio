@@ -1,33 +1,18 @@
-.FooterContainer{
-    height: 20vh;
-    display:flex;
-   
-    
+.FooterContainer {
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
 }
 
-
-.FooterName h2{
-    font-family: var(--font-name);
-    color: var(--color-second);
-    font-size: 35px;
-    margin-top: 25px;
-    margin-left:35px;
+.FooterName h2 {
+  font-family: var(--font-name);
+  color: var(--color-second);
+  font-size: 35px;
+  margin-top: 25px;
+  margin-left: 35px;
 }
 
-
-.socialMedia{
-    margin-left:30%;
-
+.socialMedia {
+  margin-top: 10px;
+  margin-right: 35px;
 }
-
-
-.socialMedia p{
-    font-family: var(--font-body);
-    color: #c97467;
-    font-size: 1.5em;
-    margin-top: 30px;
-    margin-left: 20%;
-   
-
-}
-
