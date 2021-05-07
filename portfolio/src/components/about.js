@@ -2,6 +2,7 @@ import React from "react"
 import "../styles/App.css"
 import Andrea from "../images/andreaharris.png"
 
+
 const About = () =>(
     <div className="AboutSection">
         <div className="MoreAbout">

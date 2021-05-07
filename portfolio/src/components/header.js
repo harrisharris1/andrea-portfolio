@@ -1,5 +1,6 @@
 import React from "react"
 import "../styles/App.css"
+import Badge from "../images/badge.png"
 
 
 const Header =()=>(
@@ -15,6 +16,7 @@ const Header =()=>(
             </br>that helped me become the developer I am today<span className="color-dot">.</span> I love bringing<br>
             </br>awesome design to life with code<span className="color-dot">.</span></p>
            </div>
+           <a href={Badge} target="_blank" rel="noopener noreferrer" className="color-dot"> Click here to take a look at my graduation badge!</a>
         </div>
        
        

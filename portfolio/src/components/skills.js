@@ -13,6 +13,7 @@ import vscode from '../images/vscode.svg';
 import Sass from '../images/sass.svg';
 import Github from '../images/github.svg';
 import Mysql from '../images/mysql.svg';
+import Python from '../images/python.svg'
 import '../styles/App.css';
 
 const Skills = () => (
@@ -86,6 +87,11 @@ const Skills = () => (
       <span className='skill'>
         <p>MySQL</p>
         <img src={Mysql} width='85px' alt='sql icon'></img>
+      </span>
+
+      <span className='skill'>
+        <p>Python</p>
+        <img src={Python} width='85px' alt='python icon'></img>
       </span>
     </div>
   </div>
