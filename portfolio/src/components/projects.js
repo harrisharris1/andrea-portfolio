@@ -1,6 +1,5 @@
 import React from 'react';
-// import ZacPage from '../images/zac-page.png';
-import Destinations from '../images/awesome.png';
+import ZacPage from '../images/zac-page.png';
 import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import JLOGO from '../images/Jeffery-logo.jpg';
@@ -16,7 +15,7 @@ const Projects = () => (
       </p>
 
       <div className='projectCard'>
-        {/* <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
+        <Card style={{ width: '20rem', margin:'90px', textAlign:'center'}}>
                             <Card.Img variant="top" src={ZacPage} alt="project image" fluid/>
                             <Card.Body>
                                 <Card.Title>Zac Harris Personal Site</Card.Title>
@@ -30,45 +29,13 @@ const Projects = () => (
                             <Button href="https://keen-mclean-51ee82.netlify.app/" target="_blank" className="custom-btn">Go to Project</Button>
                             <Button href="https://github.com/aharris1012/zac-personalsite" target="_blank" className="custom-btn">Go to Github</Button>
                             </Card.Body>
-                        </Card> */}
+                        </Card>
 
-        <Card style={{ width: '20rem', margin: '90px', textAlign: 'center' }}>
-          <Card.Img
-            variant='top'
-            src={Destinations}
-            alt='destinations project'
-            fluid
-          />
-          <Card.Body>
-            <Card.Title>Awesome Destinations</Card.Title>
-            <Card.Text className='Project-description'>
-              Looking for a getaway is hard. This site helps travelers see
-              destinations prices & book your next vacation easy. Built with
-              React.js and Sass preproccesor. Looking forward on implementing
-              booking & checkout, fully working components.
-            </Card.Text>
-            <Card.Text className='tech-used'>React.js|Sass</Card.Text>
-            <Button
-              href='https://peaceful-agnesi-dad644.netlify.app/'
-              target='_blank'
-              className='custom-btn'
-            >
-              Go to Project
-            </Button>
-            <Button
-              href='https://github.com/aharris1012/AwesomeDestinations'
-              target='_blank'
-              className='custom-btn'
-            >
-              Go to Github
-            </Button>
-          </Card.Body>
-        </Card>
 
         <Card style={{ width: '20rem', margin: '90px', textAlign: 'center' }}>
           <Card.Img variant='top' src={JLOGO} alt='next project' fluid />
           <Card.Body>
-            <Card.Title>Coming Soon "Jeffery"</Card.Title>
+            <Card.Title>Jeffery</Card.Title>
             <Card.Text className='Project-description'>
               Jeffery is a company offering different types of services taking
               care of the chores, customers don't want to take care of. They
@@ -79,10 +46,10 @@ const Projects = () => (
             <Card.Text className='tech-used'>
               React.js|React-bootstrap
             </Card.Text>
-            <Button href='#' target='_blank' className='custom-btn'>
+            <Button href='https://609aba605493b655e0e0ea9e--admiring-varahamihira-0d9bf7.netlify.app/' target='_blank' className='custom-btn'>
               Go to Project
             </Button>
-            <Button href='#' target='_blank' className='custom-btn'>
+            <Button href='https://github.com/harrisharris1/Jeffery' target='_blank' className='custom-btn'>
               Go to Github
             </Button>
           </Card.Body>
