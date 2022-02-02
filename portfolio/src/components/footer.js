@@ -1,5 +1,6 @@
 import React from 'react';
 import LinkedIn from '../images/linkedin.svg'
+import Github from '../images/github.svg'
 
 const Footer = () => (
   <div className='FooterContainer'>
@@ -7,8 +8,9 @@ const Footer = () => (
       <h2>
         Andrea Harris<span className='color-dot'>.</span>
       </h2>
-      <span>
+      <span className='socialMedia'>
       <a target='_blank' href="https://www.linkedin.com/in/asharris12/"> <img src={LinkedIn} width='75px' alt='LinkedIn icon'></img> </a>
+      <a target='_blank' href="https://github.com/harrisharris1"> <img src={Github} width='60px' alt='Github icon'></img> </a>
        
       </span>
     </div>
